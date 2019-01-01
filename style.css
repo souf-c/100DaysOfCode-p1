@@ -179,17 +179,25 @@ h2{
 }
 .whatispics{
 	position: absolute;
-	width: 570px;
-	height: 300px;
 	top: -30px;
 	left: 530px;
 }
-.whatispics img{
+.whatis1{
 	width: 570px;
-	height: 300px;
+    height: 300px;
+    background-image: url("img/whatis1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    margin-bottom: 30px;
 }
-.whatispics img:first-child{
-	margin-bottom: 30px;
+.whatis2{
+	width: 570px;
+    height: 300px;
+    background-image: url("img/whatis2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
 }
 /*media*/
 @media only screen and (max-width: 1200px){
@@ -239,7 +247,8 @@ h2{
 		width: 100%;
 		text-align: center;
 	}
-	.whatispics img{
+	.whatis1,
+	.whatis2{
 		display: none;
 	}
 }
