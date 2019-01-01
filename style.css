@@ -58,7 +58,7 @@ body{
 .slider{
 	color: #fff;
 	width: 1168px;
-	margin: 310px auto;
+	margin: 340px auto;
 	text-align: right;
 }
 .slider a{
@@ -150,4 +150,64 @@ body{
 	.title{
 		padding: 15px;
 	}
+}
+.trust-icons{
+	width: 690px;
+	margin: 0 auto;
+	display: block;
+}
+/*about*/
+.about{
+	width: 845px;
+	margin: 85px auto 0 auto;
+}
+.about-links{
+	display: flex;
+	justify-content: space-between;
+	border-bottom: solid 1px #ced6af;
+	margin-bottom: 120px;
+}
+.about a{
+	text-decoration: none;
+	color: #1c1c1b;
+	font-size: 30px;
+	padding: 20px 0;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+}
+.about-links .selected,
+.about a:hover{
+	border-bottom: solid 1px #1c1c1b;
+}
+.whatis{
+	width: 412px;
+	position: relative;
+}
+h2{
+	font-size: 24px;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+	width: 270px;
+	line-height: 40pt;
+}
+.whatis p{
+	font-size: 18px;
+	font-weight: 300;
+	color:#6e774a;
+	margin-bottom: 66px;
+	line-height: 28pt;
+}
+.whatispics{
+	position: absolute;
+	width: 570px;
+	height: 300px;
+	top: -30px;
+	left: 530px;
+}
+.whatispics img{
+	width: 570px;
+	height: 300px;
+}
+.whatispics img:first-child{
+	margin-bottom: 30px;
 }
