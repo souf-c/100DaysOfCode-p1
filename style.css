@@ -131,26 +131,6 @@ body{
 	bottom: 58px;
 	right: 50%;
 }
-@media only screen and (max-width: 1200px){
-	.slider{
-		text-align: center;
-		width: auto;
-	}
-}
-@media only screen and (max-width: 950px){
-	.extra{
-		display: none;
-	}
-	.header{
-		flex-direction: column;
-	}
-	.user a{
-		border-left: none;
-	}
-	.title{
-		padding: 15px;
-	}
-}
 .trust-icons{
 	width: 690px;
 	margin: 0 auto;
@@ -210,4 +190,56 @@ h2{
 }
 .whatispics img:first-child{
 	margin-bottom: 30px;
+}
+/*media*/
+@media only screen and (max-width: 1200px){
+	.containerbg{
+		height: 600px;
+	}
+	.slider{
+		text-align: center;
+		margin-top: 70px;
+		margin-bottom: 70px;
+		width: auto;
+	}
+}
+@media only screen and (max-width: 950px){
+	.slider{
+		margin-bottom: 200px;
+		margin-bottom: 30px;
+	}
+	.scroll{
+		display: none;
+	}
+	.extra{
+		display: none;
+	}
+	.header{
+		flex-direction: column;
+	}
+	.user a{
+		border-left: none;
+	}
+	.title{
+		padding: 15px;
+	}
+	.about{
+		width: auto;
+		margin: 0 20px;
+	}
+	.about-links{
+	}
+	.about a{
+		letter-spacing: normal;
+	}
+	h2{
+		width: 100%;
+	}
+	.whatis{
+		width: 100%;
+		text-align: center;
+	}
+	.whatispics img{
+		display: none;
+	}
 }
