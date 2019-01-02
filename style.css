@@ -4,7 +4,7 @@ body{
 	font-family: 'Oswald', sans-serif;
 	background-color: #f7f8f3;
 	font-weight: 400;
-	height: 5000px;
+	height: 7000px;
 }
 .containerbg{
 	background: url('img/slider.jpg') no-repeat center center fixed;
@@ -339,7 +339,52 @@ h4{
 .sliders2-right{
 	display: inline-block;
 	padding: 40px;
+	margin-bottom: -1px;
 	border: 1px solid #fff;
+}
+/*footer*/
+.title-bottom{
+	display: flex;
+	justify-content: space-between;
+  	align-items:center;
+  	margin-top: 160px;
+}
+.title-bottom img{
+	width: 371px;
+	height: 2px;
+	margin: 0 150px;
+}
+.title-2{
+	font-size: 60px;
+	color: #6e774a;
+}
+/*footernav*/
+.footer-nav{
+	display: flex;
+	justify-content: space-between;
+	margin: 0 300px;
+}
+.nav-left a,
+.nav-right a{
+	font-size: 14px;
+	font-weight: 300;
+	text-decoration: none;
+	color: #6e774a;
+	display: block;
+	margin-top: 20px;
+	text-align: center;
+}
+.social{
+	margin-top: 20px;
+	display: flex;
+	width: 300px;
+	justify-content: space-between;
+}
+.newsletter{
+	text-align: center;
+}
+.newsletter p{
+	font-size: 18px;
 }
 /*media*/
 h3{
