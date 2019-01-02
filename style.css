@@ -11,6 +11,7 @@ body{
 	background-color: #000;
 	height:1080px;
 	position: relative;
+	margin-bottom: 20px;
 }
 /*nav*/
 .header{
@@ -204,6 +205,9 @@ h2{
 	.containerbg{
 		height: 600px;
 	}
+	.scroll{
+		display: none;
+	}
 	.slider{
 		text-align: center;
 		margin-top: 70px;
@@ -213,11 +217,8 @@ h2{
 }
 @media only screen and (max-width: 950px){
 	.slider{
-		margin-bottom: 200px;
+		margin-top: 20px;
 		margin-bottom: 30px;
-	}
-	.scroll{
-		display: none;
 	}
 	.extra{
 		display: none;
@@ -250,5 +251,30 @@ h2{
 	.whatis1,
 	.whatis2{
 		display: none;
+	}
+}
+@media only screen and (max-width: 600px){
+	.containerbg{
+
+	}
+	.nav a{
+		margin-right: 10px;
+	}
+	.user a{
+		padding: 16px;
+	}
+	.slider{
+		margin-top: 5px;
+		margin-bottom: 55px;
+	}
+	.slider h1{
+		font-size: 36px;
+		line-height: 1.2em;
+	}
+	.slider .start{
+		margin-top: 5px;
+	}
+	.about-links a{
+		font-size: 18px;
 	}
 }
