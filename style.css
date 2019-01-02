@@ -4,6 +4,7 @@ body{
 	font-family: 'Oswald', sans-serif;
 	background-color: #f7f8f3;
 	font-weight: 400;
+	height: 5000px;
 }
 .containerbg{
 	background: url('img/slider.jpg') no-repeat center center fixed;
@@ -140,7 +141,7 @@ body{
 /*about*/
 .about{
 	width: 845px;
-	margin: 85px auto 0 auto;
+	margin: 85px auto 120px auto;
 }
 .about-links{
 	display: flex;
@@ -200,7 +201,110 @@ h2{
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
+/*products*/
+.featuredctr{
+	display: flex;
+	justify-content: space-between;
+}
+.featured{
+	border: 1px solid #ced6af;
+	background-color: #fff;
+	position: relative;
+	height: 500px;
+	width: 500px;
+}
+.product img{
+	display: block;
+	margin: 40px auto 20px auto;
+}
+h4{
+	font-size: 18px;
+	text-align: center;
+}
+.featured .pricectr{
+	font-size: 18px;
+	background-color: #f1f1f1;
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 76px;
+	width: 60%;
+}
+.featured .shopctr{
+	background-color: #6e774a;
+	color: #fff;
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	height: 76px;
+	width: 40%
+}
+.price{
+	height: 76px;
+	margin-top: 1.3em;
+	margin-left: 28px;
+}
+.shop{
+	height: 76px;
+	font-size: 20px;
+	margin-top: 1em;
+	margin-left: 28px;
+}
+.shop:after{
+	content: ' ';
+	background: url('img/line.png') center center / contain;
+	background-repeat: no-repeat;
+	margin-right: 30px;
+	display: inline-block;
+	width: 45px;
+	height: 2px;
+	transform: translate(1em, -.3em);
+}
+.arrows{
+	margin-top: 55px;
+	display: block;
+	text-align: center;
+}
+.arrows img{
+	margin: 0 30px;
+}
+.questionsctr{
+	width: 600px;
+	margin: 135px auto 0 auto;
+}
+.questionsctr img{
+	width: 20px;
+	height: 20px;
+	transform: translateY(.1em);
+	margin-right: 26px;
+}
+.singleqst{
+	padding: 35px 0;
+	border-top: 1px solid #eaedde;
+}
+.singleqst p{
+	font-size: 18px;
+	padding-top: 40px;
+	line-height: 40px;
+}
+.questionsctr:last-child{
+	border-bottom: 1px solid #eaedde;
+}
+.questionsctr a{
+	text-decoration: none;
+	color: #6e774a;
+	font-size: 18px;
+	font-weight: 300;
+	display: block;
+}
 /*media*/
+h3{
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 70px;
+}
 @media only screen and (max-width: 1200px){
 	.containerbg{
 		height: 600px;
@@ -213,6 +317,9 @@ h2{
 		margin-top: 70px;
 		margin-bottom: 70px;
 		width: auto;
+	}
+	.shop:after{
+		display: none;
 	}
 }
 @media only screen and (max-width: 950px){
@@ -254,9 +361,6 @@ h2{
 	}
 }
 @media only screen and (max-width: 600px){
-	.containerbg{
-
-	}
 	.nav a{
 		margin-right: 10px;
 	}
