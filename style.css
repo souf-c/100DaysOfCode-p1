@@ -4,7 +4,6 @@ body{
 	font-family: 'Oswald', sans-serif;
 	background-color: #f7f8f3;
 	font-weight: 400;
-	height: 7000px;
 }
 .containerbg{
 	background: url('img/slider.jpg') no-repeat center center fixed;
@@ -205,6 +204,8 @@ h2{
 .featuredctr{
 	display: flex;
 	justify-content: space-between;
+	max-width: 1920px;
+	margin: 0 auto;
 }
 .featured{
 	border: 1px solid #ced6af;
@@ -343,11 +344,15 @@ h4{
 	border: 1px solid #fff;
 }
 /*footer*/
+footer{
+	max-width: 1920px;
+	margin: 0 auto;
+}
 .title-bottom{
 	display: flex;
 	justify-content: space-between;
   	align-items:center;
-  	margin-top: 160px;
+  	margin-bottom: 160px;
 }
 .title-bottom img{
 	width: 371px;
@@ -356,6 +361,7 @@ h4{
 }
 .title-2{
 	font-size: 60px;
+	margin-right: 50px;
 	color: #6e774a;
 }
 /*footernav*/
@@ -385,6 +391,27 @@ h4{
 }
 .newsletter p{
 	font-size: 18px;
+	margin-bottom: 30px;
+}
+.newsletter input{
+	padding: 20px;
+	color: #6e774a;
+	font-size: 16px;
+	border: 1px solid #ced6af;
+	background-color: #fff;
+}
+.newsletter input:focus{
+	outline: 0 none;
+}
+.submit{
+	margin-left: -6px;
+}
+.copy{
+	font-size: 11px;
+	font-weight: 300;
+	color: #6e774a;
+	text-align: center;
+	margin: 60px 0;
 }
 /*media*/
 h3{
